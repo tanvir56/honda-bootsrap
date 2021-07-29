@@ -1,0 +1,115 @@
+/*------------------------
+       google fonts
+------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+
+
+/*-------------------------------
+       common custom style 
+--------------------------------*/
+body {
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.big-heading {
+
+    font-size: 48px;
+}
+
+
+
+/*---------------------------
+        header custom css   
+----------------------------*/
+
+header  {
+
+    padding-bottom: 80px;
+    background-color: #264653;
+}
+
+
+/*--------------------------
+       feature section 
+--------------------------- */
+
+.featured {
+
+    padding-top: 64px;
+}
+
+
+
+/*-------image gray css------*/
+
+.image-gray {
+
+    filter: grayscale(100%);
+}
+
+
+/*----------------------------
+        clients section
+-----------------------------*/
+
+.client {
+
+    padding-top: 130px;
+    padding-bottom: 140px;
+ }
+
+/*------------------------------
+         bike-categories
+------------------------------- */
+
+.bk-category {
+
+    padding: 80px 0px;
+}
+
+.bk-category-name {
+
+    background-color: rgba(0, 0, 0, 0.638);
+}
+
+/*----------------------------------------
+                Bike Service
+-----------------------------------------*/
+
+.bike-service{
+
+    padding: 80px 0px;
+    background-image: url(../images/bike-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---------------------------------------
+           footer custom css
+----------------------------------------*/
+
+footer {
+
+    padding: 90px 0px;
+}
+
+
+ /*-----------------------------------
+     media query for small device
+-------------------------------------*/
+
+@media only screen and (max-width:578px) {
+
+    /*--------common style query------ */
+
+    .big-heading {
+
+        font-size: 35px;
+    }
+    
+}
